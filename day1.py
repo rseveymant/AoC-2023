@@ -14,8 +14,6 @@ def calculate_sum_of_calibration_values(file_path):
 
     return sum_of_values
 
-# Read the data from day1data.txt
 sum_of_values = calculate_sum_of_calibration_values("day1data.txt")
 
-# Print the result
 print(f"The sum of all the calibration values is: {sum_of_values}")
